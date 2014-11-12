@@ -31,9 +31,9 @@ materialの環境では、仮想的な仮想光があり、場面によっては
 materialの環境ではすべての影が、これら２つの光源によって生成されます。
 z軸に沿う形で、様々な位置のmaterialシートを照らします、閉鎖空間での光源の結果として、影は生じますが、光は描画されません。
 
-<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7aUEtMG1ielNEaEk/whatismaterial_environment_shadow1.png" height="150" >Shadow cast by key light<br />
-<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7ZlNXZTJFX245YUE/whatismaterial_environment_shadow2.png" height="150" >Shadow cast by ambient light<br />
-<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7Z19QQzFJWXhYT0E/whatismaterial_environment_shadow3.png" height="150" >Combined shadow from key and ambient lights<br />
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7aUEtMG1ielNEaEk/whatismaterial_environment_shadow1.png" height="150" >、起点となる光（key light）による影<br />
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7ZlNXZTJFX245YUE/whatismaterial_environment_shadow2.png" height="150" >周辺光(ambient light)による影<br />
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7Z19QQzFJWXhYT0E/whatismaterial_environment_shadow3.png" height="150" >起点となる光（key light）と周辺光(ambient light)による影<br />
 
 
 
