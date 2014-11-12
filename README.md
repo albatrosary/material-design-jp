@@ -2,17 +2,19 @@
 
 ## Introduction
 
-我々は可能性を秘めた革新的な技術と科学、古典的な原則から来る優れたデザインを統合しようとする人の為に「視覚的な言語」を作成しました。
+We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.
 
-これをマテリアルデザインと言います.
-
-この仕様書は、マテリアルデザインのを開発する上で参考にするべき信条と仕様をまとめた、常に進化する仕様です。
+我々は技術革新と技術的で科学的な可能性と古典的な原則からより優れたデザインを統合しようとする為に「視覚により情報伝達を行うための要素（つまりVisual Language）」の作成を試みました。これはマテリアル設計です。このスペックはマテリアルデザインのあり方や仕様を開発しつづけながら更新していきます。
 
 ### Goals
 
-可能性を秘めた革新的な技術と科学、古典的な原則から来る優れたデザインを統合する為の「ビジュアル言語」を作成します。
+Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science.
 
-プラットフォームやデバイスのサイズ全体で統一された体験を可能にし、単一の基盤となるシステムを開発します。モバイルの適用が基本ですが、タッチ、音声、マウス、およびキーボードは、すべて「ﬁrst-class」の入力方法です。
+技術と科学の可能性と革新と共に古典的な原則から優れたデザインを統合する為の「Visual Language」を作成します。
+
+Develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.
+
+プラットフォームやデバイスのサイズ全体で統一された体験を可能にし、単一の基盤となるシステムを開発します。モバイルの適用が基本ですが、タッチ、音声、マウス、およびキーボードは、すべてにおいてもっとも優れてた入力方法です。
 
 ### Principles
 
