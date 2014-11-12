@@ -6,7 +6,9 @@ Environment
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7UXpQYWltVjNPWXc/whatismaterial_environment_3d.png" height="250" ><br />
 material の環境のすべてのオブジェクトは、x、y、およびzを有する三次元空間である。 z軸は垂直に正のz軸は、観察者に向かって延びるとともに、ディスプレイの平面に整列される。材料の各シートは、z軸に沿った単一の位置を占め、標準として 1dp の厚さを有する。
 
+#### 　補足
 
+ + [db(Density-independent Pixels)](http://developer.android.com/guide/topics/resources/more-resources.html#Dimension)
 
 ### Light and shadow
 
