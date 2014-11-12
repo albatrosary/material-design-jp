@@ -56,8 +56,8 @@
    * Settings
    * Swipe to refresh
  * Usability
-   * Accessibility
-   * Bidirectionality
+   * [Accessibility](https://github.com/albatrosary/material-design-jp/blob/master/Usability/Accessibility.md)
+   * [Bidirectionality](https://github.com/albatrosary/material-design-jp/blob/master/Usability/Bidirectionality.md)
  * Resources
    * [Color palettes](https://github.com/albatrosary/material-design-jp/blob/master/Resources/ColorPalettes.md)
    * [Layout templates](https://github.com/albatrosary/material-design-jp/blob/master/Resources/LayoutTemplates.md)
