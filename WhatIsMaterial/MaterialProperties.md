@@ -1,26 +1,60 @@
 Material properties
 ===
+### _materialの性質_
 
 Material has certain immutable characteristics and inherent behaviors. Understanding these qualities will help you manipulate material in a way that’s consistent with the vision of material design.
 
-マテリアルは、特定の決まった特性や固有の動作があります。これらの性質を理解することは、マテリアルデザインのビジョンと一致しない方法でマテリアルを操作しようとした場合に役立ちます。
+---
+material(素材)には、特定の決まった特性、固有の動作があります。
+これらの性質を理解することは、本来のマテリアルデザインの思想と一致しない方法で、material(素材)を扱おうとしたとき役に立ちます。
+
 
 ### Physical properties
 
+#### _物理的な性質_
+
 Material has varying x & y dimensions (measured in dps) and a uniform thickness (1dp). Material never has a thickness of 0.
 
-マテリアルは、様々な種類のX-Y寸法（dpsで測定）と均一な厚さ（1dp）を持っています。マテリアルは厚さが 0 であることはありません。
+---
+materialには、xとy(dpsで計測する高さと幅)に加えて、均一の厚み(1dp)を有しています。
+materialには、必ず厚みがあり、ゼロであることはありません。
 
-Material casts shadows.
+##### 良い例
 
-マテリアルは影を投射します。
+ * materialの高さと幅は変えることができる。(The height and width of material can vary.)
+
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B8v7jImPsDi-aTBFT1FDVEstenM/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png" width="250" />
+
+##### ダメな例
+
+ * 材料は常に1DP厚さである。(Material is always 1dp thick.)
+ * 厚みを増やしたり、ゼロにしたりは出来ない。
+ 
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B8v7jImPsDi-Sno0Qy1FY3UtaFk/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png" width="250" />
+
+
+##### Material casts shadows.
+
+_materialに対する影の描画_
 
 Shadows result naturally from the relative elevation (z-position) between material elements.
 
+---
 影はマテリアル要素間の相対的な標高（z位置）から自然に生じます。
+
+ * 良い例
+  * Material casts shadows.
+  * [サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWSE9IaUpqYzlpSW8/whatismaterial-materialprop-physicalprop-020201_PaperShadow_Do_xhdpi_007.webm)
+
+
+ * ダメな例
+  * shadows are never approximated using material.
+  * [サンブル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWYU5lQ1VXQjA3NnM/whatismaterial-materialprop-physicalprop-020201_PaperShadow_Dont_xhdpi_007.webm)
+ 
 
 Content is displayed on material, in any shape and color. Content does not add thickness to material.
 
+---
 コンテンツは、任意の形状および色があり、マテリアル上に表示されます。コンテンツはマテリアルに厚みを追加しません。
 
 Content behavior can be decoupled from the behavior of material. However, the bounds of the material can limit the display of the content.
