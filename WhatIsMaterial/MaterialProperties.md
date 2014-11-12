@@ -3,7 +3,10 @@ Material properties
 
 Material has certain immutable characteristics and inherent behaviors. Understanding these qualities will help you manipulate material in a way that’s consistent with the vision of material design.
 
-マテリアルは、特定の決まった特性や固有の動作があります。これらの性質を理解することは、マテリアルデザインのビジョンと一致しない方法でマテリアルを操作しようとした場合に役立ちます。
+---
+material(素材)には、特定の決まった特性、固有の動作があります。
+これらの性質を理解することは、本来のマテリアルデザインの思想と一致しない方法で、material(素材)を扱おうとしたとき役に立ちます。
+
 
 ### Physical properties
 
