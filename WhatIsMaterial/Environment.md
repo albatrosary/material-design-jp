@@ -8,7 +8,7 @@ material の環境のすべてのオブジェクトは、x、y、およびzを�
 
 #### 　補足
 
- + [db(Density-independent Pixels)](http://developer.android.com/guide/topics/resources/more-resources.html#Dimension)
+ + [dp(Density-independent Pixels)](http://developer.android.com/guide/topics/resources/more-resources.html#Dimension)
 
 ### Light and shadow
 
