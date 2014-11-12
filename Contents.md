@@ -3,7 +3,7 @@
 [Google Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 
 
- * [Material design](https://gist.github.com/MSakamaki/c7a972c6f80bcafb6b26#file-02-material-design-introduction-md)
+ * [Material design](https://github.com/albatrosary/material-design-jp/blob/master/README.md#material-design)
    * Introduction
  * What is material?
    * Environment
