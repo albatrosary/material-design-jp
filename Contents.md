@@ -20,9 +20,9 @@
    * [Imagery](https://github.com/albatrosary/material-design-jp/blob/master/Style/Imagery.md)
    * [Typography](https://github.com/albatrosary/material-design-jp/blob/master/Style/Typography.md)
  * Layout
-   * Principles
-   * Metrics & keylines
-   * Structure
+   * [Principles](https://github.com/albatrosary/material-design-jp/blob/master/Layout/Principles.md)
+   * [Metrics & keylines](https://github.com/albatrosary/material-design-jp/blob/master/Layout/MetricsKeylines.md)
+   * [Structure](https://github.com/albatrosary/material-design-jp/blob/master/Layout/Structure.md)
  * Components
    * Bottom sheets
    * Buttons
