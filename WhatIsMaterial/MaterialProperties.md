@@ -14,9 +14,25 @@ material(素材)には、特定の決まった特性、固有の動作があり�
 
 Material has varying x & y dimensions (measured in dps) and a uniform thickness (1dp). Material never has a thickness of 0.
 
-マテリアルは、様々な種類のX-Y寸法（dpsで測定）と均一な厚さ（1dp）を持っています。マテリアルは厚さが 0 であることはありません。
+---
+materialには、xとy(dpsで計測する高さと幅)に加えて、均一の厚み(1dp)を有しています。
+materialには、必ず厚みがあり、ゼロであることはありません。
 
-Material casts shadows.
+##### 良い例
+
+ * materialの高さと幅は変えることができる。(The height and width of material can vary.)
+
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B8v7jImPsDi-aTBFT1FDVEstenM/whatismaterial_materialproperties_physicalproperties_thickness_01_yes.png" width="250" />
+
+##### ダメな例
+
+ * 材料は常に1DP厚さである。(Material is always 1dp thick.)
+ * 厚みを増やしたり、ゼロにしたりは出来ない。
+ 
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B8v7jImPsDi-Sno0Qy1FY3UtaFk/whatismaterial_materialproperties_physicalproperties_thickness_02_no.png" width="250" />
+
+
+##### Material casts shadows.
 
 マテリアルは影を投射します。
 
