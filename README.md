@@ -20,7 +20,9 @@ Develop a single underlying system that allows for a unified experience across p
 
 #### Material is the metaphor
 
-#####  Materialは比喩（メタファ）
+#####  Materialはメタファ
+
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7VG9DQVluOFJ4Tnc/materialdesign_principles_metaphor.png" height="250">
 
 Materialの要素は、合理的なスペースの統一理論と運動とのシステムです。Materialは紙とインク、まだ技術的に高度かつオープンな想像力と魔法の研究に触発され、触覚現実に接地されています。
 
@@ -32,6 +34,8 @@ Materialの要素は、合理的なスペースの統一理論と運動とのシ
 
 ##### 意図的な強調とデザイン
 
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7NndTQW9VZTlZV2s/materialdesign_principles_bold.png" height="250">
+
 印刷ベースのデザイン·タイポグラフィ、グリッド、スペース、スケール、色、および使用の基本的要素の視覚的な治療を画像は-GUIDE。これらの要素は、目を喜ばせるよりもはるかに複数の操作を行います。彼らは、階層、意味、フォーカスを作成します。意図的な色の選択肢、端から端まで画像、大規模なタイポグラフィ、そして意図的な空白は経験でユーザーを浸す大胆かつグラフィックインターフェイスを作成します。
 
 ユーザーのアクションに重点がコア機能はすぐに明らかになり、ユーザのためにウェイポイントを提供します。
@@ -39,6 +43,8 @@ Materialの要素は、合理的なスペースの統一理論と運動とのシ
 #### Motion provides meaning
 
 ##### ふるまいは意味を提供する
+
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7dkRYelJkeklqWFU/materialdesign_principles_motion.png" height="250">
 
 運動は尊重し、原動機などのユーザーを強化する。プライマリユーザのアクションは、全体のデザインを変換する、運動を始める変曲点である。
 
