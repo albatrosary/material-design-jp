@@ -15,10 +15,10 @@
    * [Meaningful transitions](https://github.com/albatrosary/material-design-jp/blob/master/Animation/MeaningfulTransitions.md)
    * [Delightful details](https://github.com/albatrosary/material-design-jp/blob/master/Animation/DelightfulDetails.md)
  * Style
-   * Color
-   * Icons
-   * Imagery
-   * Typography
+   * [Color](https://github.com/albatrosary/material-design-jp/blob/master/Style/Color.md)
+   * [Icons](https://github.com/albatrosary/material-design-jp/blob/master/Style/Icons.md)
+   * [Imagery](https://github.com/albatrosary/material-design-jp/blob/master/Style/Imagery.md)
+   * [Typography](https://github.com/albatrosary/material-design-jp/blob/master/Style/Typography.md)
  * Layout
    * Principles
    * Metrics & keylines
