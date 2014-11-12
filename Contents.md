@@ -2,7 +2,6 @@
 
 [Google Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 
-
  * [Material design](https://github.com/albatrosary/material-design-jp/blob/master/README.md#material-design)
    * Introduction
  * What is material?
@@ -44,17 +43,17 @@
    * Text fields
    * Tooltips
  * Patterns
-   * Data formats
-   * Errors
-   * Gestures
-   * Loading images
-   * Navigation drawer
-   * Navigational transitions
-   * Scrolling techniques
-   * Search
-   * Selection
-   * Settings
-   * Swipe to refresh
+   * [Data formats](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/DataFormats.md)
+   * [Errors](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/Errors.md)
+   * [Gestures](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/Gestures.md)
+   * [Loading images](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/LoadingImages.md)
+   * [Navigation drawer](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/NavigationDrawer.md)
+   * [Navigational transitions](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/NavigationalTransitions.md)
+   * [Scrolling techniques](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/ScrollingTechniques.md)
+   * [Search](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/Search.md)
+   * [Selection](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/Selection.md)
+   * [Settings](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/Settings.md)
+   * [Swipe to refresh](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/SwipeToRefresh.md)
  * Usability
    * [Accessibility](https://github.com/albatrosary/material-design-jp/blob/master/Usability/Accessibility.md)
    * [Bidirectionality](https://github.com/albatrosary/material-design-jp/blob/master/Usability/Bidirectionality.md)
