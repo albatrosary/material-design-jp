@@ -59,9 +59,9 @@
    * Accessibility
    * Bidirectionality
  * Resources
-   * Color palettes
-   * Layout templates
-   * Roboto & Noto fonts
-   * Sticker sheets & icons
+   * [Color palettes](https://github.com/albatrosary/material-design-jp/blob/master/Resources/ColorPalettes.md)
+   * [Layout templates](https://github.com/albatrosary/material-design-jp/blob/master/Resources/LayoutTemplates.md)
+   * [Roboto & Noto fonts](https://github.com/albatrosary/material-design-jp/blob/master/Resources/RobotoNotoFonts.md)
+   * [Sticker sheets & icons](https://github.com/albatrosary/material-design-jp/blob/master/Resources/StickerSheetsIcons.md)
  * What's new
    * What's new
