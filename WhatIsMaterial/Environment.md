@@ -18,10 +18,18 @@ materialの各シートはz軸に対して一定の位置に存在しており�
 
 ### Light and shadow
 
-material 環境内で、仮想ライトは、シーンを照らすとオブジェクトが影作ることができます。周囲の光があらゆる角度から一貫して、ソフトシャドウを作成しながら、キーライトは、指向性の影を作成します。
+Within the material environment, virtual lights illuminate the scene and allow objects to cast shadows. 
+A key light creates directional shadows, while an ambient light creates consistent, soft shadows from all angles.
 
-material 環境内のすべての影は、これら2つの光源によって鋳造される。影は、z軸に沿った様々な位置でシート材料によってこれらの光源の閉塞に起因する光の不在である。
+All shadows in the material environment are cast by these two light sources. 
+Shadows are the absence of light resulting from the occlusion of these light sources by sheets of material at various positions along the z-axis.
 
+---
+materialの環境では、仮想的な仮想光があり、場面によっては描画されるオブジェクトに影を発生させることができます。
+周辺光(ambient light)により、様々な方向に伸びるソフトウェア的な影を描画しつつ、起点となる光（key light） により指向性の影を作り出します。
+
+materialの環境ではすべての影が、これら２つの光源によって生成されます。
+z軸に沿う形で、様々な位置のmaterialシートを照らします、閉鎖空間での光源の結果として、影は生じますが、光は描画されません。
 
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7aUEtMG1ielNEaEk/whatismaterial_environment_shadow1.png" height="150" >Shadow cast by key light<br />
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7ZlNXZTJFX245YUE/whatismaterial_environment_shadow2.png" height="150" >Shadow cast by ambient light<br />
