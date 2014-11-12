@@ -3,16 +3,16 @@
 ## Introduction
 
 我々は可能性を秘めた革新的な技術と科学、古典的な原則から来る優れたデザインを統合しようとする人の為に「ビジュアル言語」を作成しました。
+
 これをマテリアルデザインと言います.
+
 この仕様書は、マテリアルデザインのを開発する上で参考にするべき信条と仕様をまとめた、常に進化する仕様です。
 
 ### Goals
 
 可能性を秘めた革新的な技術と科学、古典的な原則から来る優れたデザインを統合する為の「ビジュアル言語」を作成します。
-![](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7QTA5cHFBUlV3RTA/materialdesign_goals_language.png)
 
 プラットフォームやデバイスのサイズ全体で統一された体験を可能にし、単一の基盤となるシステムを開発します。モバイルの適用が基本ですが、タッチ、音声、マウス、およびキーボードは、すべて「ﬁrst-class」の入力方法です。
-![](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7c0R4RUtiTkhMZTQ/materialdesign_goals_system.png)
 
 ### Principles
 
