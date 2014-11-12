@@ -10,6 +10,8 @@ material(素材)には、特定の決まった特性、固有の動作があり�
 
 ### Physical properties
 
+#### 物理的な性質
+
 Material has varying x & y dimensions (measured in dps) and a uniform thickness (1dp). Material never has a thickness of 0.
 
 マテリアルは、様々な種類のX-Y寸法（dpsで測定）と均一な厚さ（1dp）を持っています。マテリアルは厚さが 0 であることはありません。
