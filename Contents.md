@@ -7,7 +7,7 @@
    * Introduction
  * What is material?
    * [Environment](https://github.com/albatrosary/material-design-jp/blob/master/WhatIsMaterial/Environment.md#environment)
-   * Material properties
+   * [Material properties](https://github.com/albatrosary/material-design-jp/blob/master/WhatIsMaterial/MaterialProperties.md)
    * Objects in 3D space
  * Animation
    * Authentic motion
