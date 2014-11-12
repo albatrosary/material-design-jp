@@ -1,5 +1,4 @@
 Material properties
-===
 
 Material has certain immutable characteristics and inherent behaviors. Understanding these qualities will help you manipulate material in a way that’s consistent with the vision of material design.
 
@@ -82,3 +81,4 @@ Material can move along any axis.
 Z-axis motion is typically a result of user interaction with material.
 
 Z軸の動きは、通常マテリアルとユーザとの相互作用の結果です。
+
