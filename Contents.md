@@ -10,10 +10,10 @@
    * [Material properties](https://github.com/albatrosary/material-design-jp/blob/master/WhatIsMaterial/MaterialProperties.md)
    * [Objects in 3D space](https://github.com/albatrosary/material-design-jp/blob/master/WhatIsMaterial/ObjectsIn3DSpace.md)
  * Animation
-   * Authentic motion
-   * Responsive interaction
-   * Meaningful transitions
-   * Delightful details
+   * [Authentic motion](https://github.com/albatrosary/material-design-jp/blob/master/Animation/AuthenticMotion.md)
+   * [Responsive interaction](https://github.com/albatrosary/material-design-jp/blob/master/Animation/ResponsiveInteraction.md)
+   * [Meaningful transitions](https://github.com/albatrosary/material-design-jp/blob/master/Animation/MeaningfulTransitions.md)
+   * [Delightful details](https://github.com/albatrosary/material-design-jp/blob/master/Animation/DelightfulDetails.md)
  * Style
    * Color
    * Icons
