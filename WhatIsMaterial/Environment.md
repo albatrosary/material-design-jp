@@ -11,9 +11,9 @@ The material environment is a 3D space, which means all objects have x, y, and z
 
 materialに存在するすべてのオブジェクトは、x-y-zの3軸を有する三次元空間に表現されます。
 
-z軸は見ている人に対して近づきつつも、平面のディスプレイ上に並んでいます。
+z軸はディスプレイの面に垂直で、見ているユーザに対して向かって延びる方向を+z軸としています。
 
-materialの各シートはz軸に対して一定の位置に存在しており、常に1dp毎の厚みが表現されます。
+materialの各シートはz軸に対しある位置に存在しており、常に 1dp の厚みがあります。
 
 
 ### Light and shadow
