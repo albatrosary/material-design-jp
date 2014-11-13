@@ -160,17 +160,29 @@ materialは、複数に分けた後、また結合する事が出来る。
 
 [サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWX0dIVXh2QzlwcVU/whatismaterial-materialprop-transformingmaterial-020202_PaperSplitHeal_xhdpi_004.webm)
 
+---
+
 ### Movement of material
+### _Materialの動作_
 
 Material can be spontaneously generated or destroyed anywhere in the environment.
 
-マテリアルはどのような環境でも自発的に生成されるか破壊することができる。
+materialはどのような場所にでも自然と現れ、消えることが可能です。
+
+[サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWWWhMRFVudjl4bTQ/whatismaterial-materialprop-movementmaterial-020203_PaperPointExpand_xhdpi_004.webm)
+
+---
 
 Material can move along any axis.
 
-マテリアルは任意の軸に沿って移動することができます。
+materialは任意の軸に沿って移動することができます。
+
+[サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B2wX4iIvu8L6Y2Z1NUlzMWczaHc/whatismaterial-materialprop-movementmaterial-020203_PaperMove_xhdpi_007.webm)
+
+---
 
 Z-axis motion is typically a result of user interaction with material.
 
-Z軸の動きは、通常マテリアルとユーザとの相互作用の結果です。
+一般的にz軸の振る舞いは、materialの特性とユーザー操作の組み合わせの結果です。
 
+[サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWNW5xUERVcEd1bm8/whatismaterial-materialprop-movementmaterial-020203_Material_Response_xhdpi_002.webm)
