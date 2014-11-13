@@ -1,6 +1,6 @@
 Material properties
 ===
-### _materialの性質_
+## _materialの性質_
 
 Material has certain immutable characteristics and inherent behaviors. Understanding these qualities will help you manipulate material in a way that’s consistent with the vision of material design.
 
@@ -116,18 +116,31 @@ materialは他のmaterialをすり抜ける事はできません。
 ---
 
 ### Transforming material
+### _materialの変形_
 
 Material can change shape.
 
-マテリアルは、形状を変更することができます。
+materialは、形状を変化させることができます。
+
+[サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWd2N5R1lqeUFwWkk/whatismaterial-materialprop-transformingmaterial-020202_PaperShape_xhdpi_004.webm)
+
+---
 
 Material grows and shrinks along only its plane.
 
-マテリアルは成長してのみ、その平面に沿って縮む。
+materialは平面方向に対してだけ形を変えていきます。
+
+[サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWWFFOVGp2UFVNZzg/whatismaterial-materialprop-transformingmaterial-020202_PaperShapeLinear_xhdpi_004.webm)
+
+---
 
 Material never bends or folds.
 
-マテリアルは決して曲がったりしない。
+materialは決して折れたり曲がったりしません。
+
+[悪い例](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWNktzeE04V0ZGNzg/whatismaterial-materialprop-transformingmaterial-020202_PaperBendFold_xhdpi_005.webm)
+
+----
 
 Sheets of material can join together to become a single sheet of material.
 
