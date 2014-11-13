@@ -36,8 +36,3 @@ z軸に沿う形で、様々な位置のmaterialシートを照らします、�
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7Z19QQzFJWXhYT0E/whatismaterial_environment_shadow3.png" height="150" >起点となる光（key light）と周辺光(ambient light)による影<br />
 
 
-
-####  翻訳内容の補足メモ
-
- + [dp(Density-independent Pixels)](http://developer.android.com/guide/topics/resources/more-resources.html#Dimension)
-    + ディスプレイサイズに依存しないピクセル表現
