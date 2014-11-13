@@ -183,6 +183,6 @@ materialは任意の軸に沿って移動することができます。
 
 Z-axis motion is typically a result of user interaction with material.
 
-一般的にz軸の振る舞いは、materialの特性とユーザー操作の組み合わせの結果です。
+一般的にz軸の動きは、materialの特性とユーザー操作の組み合わせの結果です。
 
 [サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWNW5xUERVcEd1bm8/whatismaterial-materialprop-movementmaterial-020203_Material_Response_xhdpi_002.webm)
