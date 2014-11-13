@@ -43,12 +43,12 @@ Shadows result naturally from the relative elevation (z-position) between materi
 影はマテリアル要素間の相対的な標高（z位置）から自然に生じます。
 
  * 良い例
-  * Material casts shadows.
+  * (物質的な)materialの影を描画する(Material casts shadows.)
   * [サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWSE9IaUpqYzlpSW8/whatismaterial-materialprop-physicalprop-020201_PaperShadow_Do_xhdpi_007.webm)
 
 
  * ダメな例
-  * shadows are never approximated using material.
+  * materialに対して、にたような影が描画される。(shadows are never approximated using material.)
   * [サンブル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWYU5lQ1VXQjA3NnM/whatismaterial-materialprop-physicalprop-020201_PaperShadow_Dont_xhdpi_007.webm)
  
 
@@ -57,6 +57,8 @@ Shadows result naturally from the relative elevation (z-position) between materi
 Content is displayed on material, in any shape and color. Content does not add thickness to material.
 
 コンテンツは、任意の形状および色があり、マテリアル上に表示されます。コンテンツはマテリアルに厚みを追加しません。
+
+---
 
 Content behavior can be decoupled from the behavior of material. However, the bounds of the material can limit the display of the content.
 
