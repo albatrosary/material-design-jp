@@ -54,9 +54,13 @@ Shadows result naturally from the relative elevation (z-position) between materi
 
 ---
 
-Content is displayed on material, in any shape and color. Content does not add thickness to material.
+Content is displayed on material, in any shape and color. 
+Content does not add thickness to material.
 
-コンテンツは、任意の形状および色があり、マテリアル上に表示されます。コンテンツはマテリアルに厚みを追加しません。
+コンテンツ上に描画されるmaterialには様々な形や色があります。
+しかし、コンテンツはmaterialに厚みを持たせません。
+
+[サンブル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWTG41Rk9fT19qUXc/whatismaterial-materialprop-physicalprop-020201_InkDisplay_xhdpi_005.webm)
 
 ---
 
