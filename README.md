@@ -2,6 +2,8 @@
 
 ## [ガイドラインもくじ](https://github.com/albatrosary/material-design-jp/blob/master/Contents.md)
 
+## [用語・関連技術集](https://github.com/albatrosary/material-design-jp/blob/master/Glossary.md)
+
 ## Introduction
 
 We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.
