@@ -81,6 +81,14 @@ Input events cannot pass through material.
 
 入力イベントは、マテリアルを通過することができない。
 
+良い例
+![good](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7Q296SENNTG96RVE/whatismaterial_properties_physical3.png)
+
+悪い例
+![bad](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7WlhmUDRKZWlyUlU/whatismaterial_properties_physical4.png)
+
+---
+
 Multiple material elements cannot occupy the same point in space simultaneously.
 
 複数のマテリアル要素は、同時に空間内の同じ点を占有することはできません。
