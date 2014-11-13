@@ -75,11 +75,11 @@ Content behavior can be decoupled from the behavior of material. However, the bo
 
 Material is solid.
 
-マテリアルは固体です。
-
 Input events cannot pass through material.
 
-入力イベントは、マテリアルを通過することができない。
+マテリアルは確実な物です。
+
+入力イベントは、materialを越える事はできません。
 
 良い例
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7Q296SENNTG96RVE/whatismaterial_properties_physical3.png" height="250" />
