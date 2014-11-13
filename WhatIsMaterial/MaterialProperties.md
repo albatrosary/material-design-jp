@@ -103,11 +103,17 @@ Multiple material elements cannot occupy the same point in space simultaneously.
 
 Material cannot pass through other material.
 
-マテリアルは他のマテリアルを通過することはできません。
-
 For example, one sheet of material cannot pass through another sheet of material when changing elevation.
 
-例えば、上下移動する場合、一枚のマテリアル・シートが別のマテリアル・シートを通過することができません。
+materialは他のmaterialをすり抜ける事はできません。
+
+例えば、単純に高さを入れ替える場合に、一枚のmaterialシートが別のmaterialシートを通り抜けるような事はできません。
+
+悪い例
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7Ni14MHdScGx0czA/whatismaterial_properties_physical7.png" height="350" />
+
+
+---
 
 ### Transforming material
 
