@@ -144,11 +144,21 @@ materialは決して折れたり曲がったりしません。
 
 Sheets of material can join together to become a single sheet of material.
 
-マテリアル・シートは、マテリアルの単一のシートになるために結合することができる。
+複数のmaterialシートは、単一のmaterialシートに結合する事が出来ます。
 
-When split, material can heal. For example, if you remove a portion of material from a sheet of material, the sheet of material will become a whole sheet again.
+[サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWbE1WWExWSURmTDg/whatismaterial-materialprop-transformingmaterial-020202_PaperHeal_xhdpi_003.webm)
 
-分解してもマテリアルは治すことができる。例えば、もしマテリアル・シートからマテリアルの一部を除去した場合、分解マテリアル・シートは再度全体のシートになる。
+---
+
+When split, material can heal. 
+
+For example, if you remove a portion of material from a sheet of material, the sheet of material will become a whole sheet again.
+
+materialは、複数に分けた後、また結合する事が出来る。
+
+もし、materialシートから別のmaterialとして切り出したとき、その切り出したmaterialシートは元のmaterialシートに再結合し、再度一つのmaterialシートとして扱うことができる。
+
+[サンプル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWX0dIVXh2QzlwcVU/whatismaterial-materialprop-transformingmaterial-020202_PaperSplitHeal_xhdpi_004.webm)
 
 ### Movement of material
 
