@@ -66,7 +66,12 @@ Content does not add thickness to material.
 
 Content behavior can be decoupled from the behavior of material. However, the bounds of the material can limit the display of the content.
 
-コンテンツの振る舞いはマテリアルの振る舞いから切り離すことができます。しかし、マテリアルの境界は、コンテンツの表示を制限することができます。
+コンテンツとmaterialの性質は切り離して考える事が出来ます。
+しかし、materialの範囲内でのみ、コンテンツは表示できます。
+
+[サンブル](http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0B0NGgBg38lWWeVBlbExGYjlTeEE/whatismaterial-materialprop-physicalprop-020201_InkBehavior_xhdpi_005.webm)
+
+---
 
 Material is solid.
 
