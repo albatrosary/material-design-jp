@@ -1,9 +1,7 @@
 # マテリアルデザイン目次
 
-[Google Material Design](http://www.google.com/design/spec/material-design/introduction.html)
-
- * [Material design](https://github.com/albatrosary/material-design-jp/blob/master/README.md#material-design)
-   * Introduction
+ * Material design
+   * [Introduction](https://github.com/albatrosary/material-design-jp/blob/master/MaterialDesign/Introduction.md)
  * What is material?
    * [Environment](https://github.com/albatrosary/material-design-jp/blob/master/WhatIsMaterial/Environment.md#environment)
    * [Material properties](https://github.com/albatrosary/material-design-jp/blob/master/WhatIsMaterial/MaterialProperties.md)
