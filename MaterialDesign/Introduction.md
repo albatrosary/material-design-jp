@@ -46,6 +46,7 @@ The foundational elements of print-based design—typography, grids, space, scal
 印刷ベースのデザイン·タイポグラフィ、グリッド、スペース、スケール、色、および使用の基本的要素の視覚的な治療を画像は-GUIDE。これらの要素は、目を喜ばせるよりもはるかに複数の操作を行います。彼らは、階層、意味、フォーカスを作成します。意図的な色の選択肢、端から端まで画像、大規模なタイポグラフィ、そして意図的な空白は経験でユーザーを浸す大胆かつグラフィックインターフェイスを作成します。
 
 An emphasis on user actions makes core functionality immediately apparent and provides waypoints for the user.
+
 ユーザーのアクションに重点がコア機能はすぐに明らかになり、ユーザのためにウェイポイントを提供します。
 
 #### Motion provides meaning
@@ -54,8 +55,14 @@ An emphasis on user actions makes core functionality immediately apparent and pr
 
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7dkRYelJkeklqWFU/materialdesign_principles_motion.png" height="250">
 
+Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.
+
 運動は尊重し、原動機などのユーザーを強化する。プライマリユーザのアクションは、全体のデザインを変換する、運動を始める変曲点である。
 
+All action takes place in a single environment. Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.
+
 すべてのアクションは、単一の環境で行われます。オブジェクトは、それらが変換および再編成さえとしての経験の連続性を壊さずにユーザに提示されます。
+
+Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.
 
 運動は継続性を注意を集中し、維持するのに役立つ、有意義かつ適切である。フィードバックは微妙なまだ明確である。トランジションは、まだコヒーレントEF Fi回線cientです。
