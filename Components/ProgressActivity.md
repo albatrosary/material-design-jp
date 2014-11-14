@@ -29,4 +29,16 @@ Linear bars should appear and disappear on the edge of a header or sheet.
 
 リニアバーが表示され、ヘッダまたはシートの端に消えるはずです。
 
+#### Circular
+
+Circular with integration
+
+統合の円形
+
 ### Behavior
+
+Loading in phases
+
+フェーズでのロード
+
+#### Loading additional content
