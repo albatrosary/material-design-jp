@@ -32,6 +32,7 @@ Surfaces and edges of the material provide visual cues that are grounded in real
 表面および材料のエッジが現実に接地されている視覚的な手がかりを提供する。おなじみの触覚属性の使用は、ユーザーが迅速にアフォーダンスを理解するのに役立ちます。しかし、材料の柔軟性が物理学のルールを壊すことなく、物理的な世界のもの取って代わる新たなアフォーダンスを作成します。
 
 The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.
+
 光、表面、および運動のファンダメンタルズは、オブジェクトが移動、相互作用し、空間内で相互に関連して存在してどのように伝えるの鍵である。現実的な照明は、縫い目を示しているスペースを分割し、可動部品を示している。
 
 #### Bold, graphic, intentional
@@ -40,8 +41,11 @@ The fundamentals of light, surface, and movement are key to conveying how object
 
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7NndTQW9VZTlZV2s/materialdesign_principles_bold.png" height="250">
 
+The foundational elements of print-based design—typography, grids, space, scale, color, and use of imagery—guide visual treatments. These elements do far more than please the eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create a bold and graphic interface that immerse the user in the experience.
+
 印刷ベースのデザイン·タイポグラフィ、グリッド、スペース、スケール、色、および使用の基本的要素の視覚的な治療を画像は-GUIDE。これらの要素は、目を喜ばせるよりもはるかに複数の操作を行います。彼らは、階層、意味、フォーカスを作成します。意図的な色の選択肢、端から端まで画像、大規模なタイポグラフィ、そして意図的な空白は経験でユーザーを浸す大胆かつグラフィックインターフェイスを作成します。
 
+An emphasis on user actions makes core functionality immediately apparent and provides waypoints for the user.
 ユーザーのアクションに重点がコア機能はすぐに明らかになり、ユーザのためにウェイポイントを提供します。
 
 #### Motion provides meaning
