@@ -23,10 +23,15 @@ Develop a single underlying system that allows for a unified experience across p
 
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7VG9DQVluOFJ4Tnc/materialdesign_principles_metaphor.png" height="250">
 
+A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.
+
 Materialの要素は、合理的なスペースの統一理論と運動とのシステムです。Materialは紙とインク、まだ技術的に高度かつオープンな想像力と魔法の研究に触発され、触覚現実に接地されています。
+
+Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supercede those in the physical world, without breaking the rules of physics.
 
 表面および材料のエッジが現実に接地されている視覚的な手がかりを提供する。おなじみの触覚属性の使用は、ユーザーが迅速にアフォーダンスを理解するのに役立ちます。しかし、材料の柔軟性が物理学のルールを壊すことなく、物理的な世界のもの取って代わる新たなアフォーダンスを作成します。
 
+The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.
 光、表面、および運動のファンダメンタルズは、オブジェクトが移動、相互作用し、空間内で相互に関連して存在してどのように伝えるの鍵である。現実的な照明は、縫い目を示しているスペースを分割し、可動部品を示している。
 
 #### Bold, graphic, intentional
