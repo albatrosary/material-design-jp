@@ -1,87 +1,30 @@
-Navigation drawer
+Navigational transitions
 ===
 
-The navigation drawer is a common pattern found in Google apps.  The navigation drawer slides in from the left. It follows the keylines and metrics for lists.
+Navigational transitions occur when the user is taken from one state to another within the app, such as moving from a high-level view to a detailed view or a task-completion view. Most transitions are hierarchical in nature, but non-hierarchical transitions also occur.
 
-ナビゲーションドロワーは、Googleアプリで見られる一般的なパターンです。ナビゲーションドロワーが左サイドからスライドします。それはリストのkeylinesとメトリックに従います。
+ナビゲーションの遷移は、ユーザーがそのような詳細ビューまたはタスク完了ビューにハイレベルなビューから移動するように、アプリ内である状態から別の状態に取られたときに発生する。ほとんどの遷移は自然の中で階層的であるが、非階層遷移が発生することも。
 
-#### Typography
+These brief moments are very important for the user experience. Consider the user’s journey carefully to determine which transition to use when. Different kinds of transitions are appropriate for various cases.
 
-Roboto Medium, 14sp, #FFFFFF
-Roboto Regular, 14sp, #FFFFFF
-List item: Roboto Medium, 14sp, 87% #000000
-Subheader: Roboto Medium, 14sp, 54% #000000. Aligns to the 16dp keyline.
+これらの簡単なモーメントは、ユーザーエクスペリエンスのために非常に重要である。慎重にするときに使用するトランジションを決定するために、ユーザーの旅を考えてみましょう。トランジションの種類が様々なケースに適しています。
 
-#### Vertical keylines and horizontal margins
+### Parent to child
 
-Vertical keylines for icons are at 16dp from the left and right edges of the side nav and are 54% #000000.
+One of the most important transitions is when the user “drills down” into content. It can be thought of as a parent-to-child transition, because it is hierarchical in nature.
 
-Content associated with an icon or avatar aligns 72dp from the left edge of the side nav.
+ユーザがコンテンツへの「ドリルダウン」する際の最も重要な遷移の一つである。それは本質的に階層的であるので、それは、親から子への移行と考えることができる。
 
-The width of the side nav is equal to the width of the screen minus the height of the action bar, or in this case 56dp from the right edge of the screen.
+In material design, a parent-to-child transition is indicated by a change in elevation. The surface or the area of the surface that the user touches should lift up and expand into place from its origin. This motion guides the user from point A to point B and should highlight both the origin as well as the destination. It should feel natural, using the material motion curves, and familiar, because the expansion and movement from the origin appears logical.
 
-Use 16dp horizontal margins on mobile.
+材料設計では、親から子への遷移は、標高の変化によって示される。表面またはユーザー·タッチが、その原点から所定の場所に持ち上げて広げるべきである表面の面積。この動きは、点Bに、点Aからユーザを案内原点ならびに宛先の両方を強調すべきである。原点からの拡大と運動が論理現れるので、それは、材料モーションカーブ、そしておなじみのを使用して、自然に感じるはず。
 
-アイコンの垂直keylinesは、サイドNAVの左右の端から16dpにあると54％の＃000000です。
+### Sibling to sibling
 
-アイコンやアバターに関連付けられたコンテンツは、サイドNAVの左端から72dpを揃えます。
+Transitions that are not hierarchical in nature behave differently than hierarchical transitions. You can think of non-hierarchical transitions as sibling transitions.
 
-サイドナビゲーションの幅は、画面の幅を引いた画面の右端からアクションバーの高さ、またはこの場合56dp内に等しい。
+自然の中で階層的でない遷移は、階層的なトランジションとは動作が異なります。あなたは、兄弟の遷移などの非階層遷移と考えることができます。
 
-モバイル上16dp水平マージンを使用してください。
+An example for this kind of transition is when a user navigates through a row of tabs. There is no elevation change; the content and surface of each tab stays on the same elevation level. New content slides in from the right and pushes its sibling off screen to the left.
 
-
-#### Vertical spacing
-
-1. 24dp
-2. 56dp
-3. 8dp
-4. 48dp
-
-Add 8dp padding at the top and bottom of every list grouping. One exception is at the top of a list with a subheader, because subheaders contain their own padding.
-
-すべてのリストのグループ化の上部と下部に8dpパディングを追加します。サブヘッダーが独自のパディングが含まれているため、一つの例外は、サブヘッダーでリストの最上位に位置する。
-
-#### Elevation
-
-The nav drawer spans the full height of the screen and the drawer is behind the status bar.
-
-NAVの引き出しには、画面の全高にまたがり、引き出しは、ステータスバーの背後にある。
-
-#### Selection state
-
-After a list item is selected, that item becomes the app’s primary color or #000000 100% to clearly indicate selection. The touch ripple also becomes a highlight, to further indicate selection.
-
-If this color the touch ripple/highlight doesn’t provide enough contrast with your primary color, use a darker tint of the primary color.
-
-リスト項目が選択された後、その項目は明らかに選択を示すために、アプリの原色や＃000000 100パーセントになります。タッチリップルもさらなる選択を示すために、ハイライトになります。
-
-この色は、タッチリップル/ハイライトがあなたの原色との十分なコントラストを提供していない場合は、原色の暗い色合いを使用しています。
-
-#### Dividers
-
-All dividers in the nav drawer are full-bleed inside the panel. There is also an 8dp padding above and below the divider.
-
-NAVの引き出しの中のすべての仕切りは、フルブリードパネルの内側にある。 8dpパディングの上と分周器の下にもあります。
-
-#### Scrolling
-
-The navigation drawer can scroll like any normal view would.
-
-ナビゲーションドロワーはあろう任意の通常のビューのようにスクロールすることができます。
-
-#### Settings and support
-
-Settings and support are located at the bottom of the scrolling list, in-line with the rest of the list content.
-
-If the list of content in the navigation drawer is very long, the two options can be pinned to the bottom of the navigation drawer on a surface with a higher elevation. This surface is present only while at the top of the list; any other scroll position will immediately result in dismissing the surface and placing the options at the end of the list, in-line with the rest of the list content. The navigation drawer retains its scroll position when closed and reopened.
-
-設定とサポートは、リストの内容の残りの部分とインラインで、スクロールリストの一番下に配置されています。
-
-ナビゲーションドロワーのコンテンツのリストが非常に長い場合、2つのオプションは、より高い高度を有する表面上のナビゲーションパネルの下部に固定することができる。この表面は、一方で、リストの一番上に存在する。他のスクロール位置はすぐに表面を却下し、リストの内容の残りの部分とインラインで、リストの最後にオプションを置くことになります。閉じて再度開くとき、ナビゲーションドロワーは、そのスクロール位置を保持します。
-
-If the list doesn’t scroll, the settings and support items will appear at the end of the list and are not pinned.
-
-リストがスクロールしない場合は、設定やサポートアイテムは、リストの最後に表示され、ピン留めされていません。
-
-
+ユーザーはタブの行をナビゲートする際の移行この種の例がある。何標高の変化はありません。各タブの内容と表面が同じ高さレベルに留まる。新しいコンテンツが右サイドからスライドし、左に画面をその兄弟をオフにプッシュします。
