@@ -21,25 +21,25 @@
    * [Metrics & keylines](https://github.com/albatrosary/material-design-jp/blob/master/Layout/MetricsKeylines.md)
    * [Structure](https://github.com/albatrosary/material-design-jp/blob/master/Layout/Structure.md)
  * Components
-   * Bottom sheets
-   * Buttons
-   * Cards
-   * Chips
-   * Dialogs
-   * Dividers
-   * Grids
-   * Lists
-   * List controls
-   * Menus
-   * Pickers
-   * Progress & activity
-   * Sliders
-   * Snackbars & toasts
-   * Subheaders
-   * Switches
-   * Tabs
-   * Text fields
-   * Tooltips
+   * [Bottom sheets](https://github.com/albatrosary/material-design-jp/blob/master/Components/BottomSheets.md)
+   * [Buttons](https://github.com/albatrosary/material-design-jp/blob/master/Components/Buttons.md)
+   * [Cards](https://github.com/albatrosary/material-design-jp/blob/master/Components/Cards.md)
+   * [Chips](https://github.com/albatrosary/material-design-jp/blob/master/Components/Chips.md)
+   * [Dialogs](https://github.com/albatrosary/material-design-jp/blob/master/Components/Dialogs.md)
+   * [Dividers](https://github.com/albatrosary/material-design-jp/blob/master/Components/Dividers.md)
+   * [Grids](https://github.com/albatrosary/material-design-jp/blob/master/Components/Grids.md)
+   * [Lists](https://github.com/albatrosary/material-design-jp/blob/master/Components/Lists.md)
+   * [List controls](https://github.com/albatrosary/material-design-jp/blob/master/Components/ListControls.md)
+   * [Menus](https://github.com/albatrosary/material-design-jp/blob/master/Components/Menus.md)
+   * [Pickers](https://github.com/albatrosary/material-design-jp/blob/master/Components/Pickers.md)
+   * [Progress & activity](https://github.com/albatrosary/material-design-jp/blob/master/Components/ProgressActivity.md)
+   * [Sliders](https://github.com/albatrosary/material-design-jp/blob/master/Components/Sliders.md)
+   * [Snackbars & toasts](https://github.com/albatrosary/material-design-jp/blob/master/Components/SnackbarsToasts.md)
+   * [Subheaders](https://github.com/albatrosary/material-design-jp/blob/master/Components/Subheaders.md)
+   * [Switches](https://github.com/albatrosary/material-design-jp/blob/master/Components/Switches.md)
+   * [Tabs](https://github.com/albatrosary/material-design-jp/blob/master/Components/Tabs.md)
+   * [Text fields](https://github.com/albatrosary/material-design-jp/blob/master/Components/TextFields.md)
+   * [Tooltips](https://github.com/albatrosary/material-design-jp/blob/master/Components/Tooltips.md)
  * Patterns
    * [Data formats](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/DataFormats.md)
    * [Errors](https://github.com/albatrosary/material-design-jp/blob/master/Patterns/Errors.md)
