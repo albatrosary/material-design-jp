@@ -1,9 +1,21 @@
 Objects in 3D space
 ===
 
-There are parallels between organizing objects in the physical world and arranging objects in space in material design. In the physical world, objects can be stacked or affixed to one another, but cannot pass through one another. The objects cast shadows and reflect light.
+### _三次元空間に存在するオブジェクト_
 
-物理的な世界内のオブジェクトを整理し、マテリアル設計のスペース内のオブジェクトを配置することとの間に類似点があります。物理的な世界では、オブジェクトは、積み重ねることができ、又は互いに固定されたが、互いを通過することができない。オブジェクトには影をキャストして光を反射する。
+There are parallels between organizing objects in the physical world and arranging objects in space in material design. 
+In the physical world, objects can be stacked or affixed to one another, but cannot pass through one another. 
+The objects cast shadows and reflect light.
+
+
+現実世界とマテリアルデザインのオブジェクトは共通の類似点が存在します。
+
+現実世界では、オブジェクトを固めたり、積み重ねる事ができ、そのときに同じ空間を占めるような重なり方は起こりません。
+
+オブジェクトは光を当てると影を描画し、光を反射します。
+
+
+---
 
 These qualities apply to objects in material design and help create a spatial model that can be consistently applied across apps in ways that are familiar to users.
 
