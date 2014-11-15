@@ -19,7 +19,12 @@ The objects cast shadows and reflect light.
 
 These qualities apply to objects in material design and help create a spatial model that can be consistently applied across apps in ways that are familiar to users.
 
-これらの資質は、マテリアル設計内のオブジェクトに適用され、一貫して、ユーザーによく知られている方法でのアプリの間に印加することが可能な空間モデルを作成するのに役立つ。
+こういった特徴は、マテリアルデザインに存在するオブジェクトすべてに当てはまり、空間を意識させるモデルを作るのに役立ちます。
+そしてそれは、ユーザーに親しみのある方法で、常にアプリケーション全体に適用する事が出来ます。
+
+
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7U05IYmxGcW1WcVU/whatismaterial_3d_elevation1.png" width="500"/>
+---
 
 ### Elevation
 
