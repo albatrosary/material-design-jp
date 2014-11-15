@@ -15,28 +15,31 @@ The objects cast shadows and reflect light.
 オブジェクトは光を当てると影を描画し、光を反射します。
 
 
----
 
 These qualities apply to objects in material design and help create a spatial model that can be consistently applied across apps in ways that are familiar to users.
 
 こういった特徴は、マテリアルデザインに存在するオブジェクトすべてに当てはまり、空間を意識させるモデルを作るのに役立ちます。
 そしてそれは、ユーザーに親しみのある方法で、常にアプリケーション全体に適用する事が出来ます。
 
-
-<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7U05IYmxGcW1WcVU/whatismaterial_3d_elevation1.png" width="500"/>
 ---
 
 ### Elevation
 
 #### Elevation
+#### _Elevation(エレベーション)(高度)_
+
 
 Elevation is the relative position of an object along its parent’s z-axis. Elevation is the relative value between parent and child objects.
 
-標高は親のz軸に沿って物体の相対的な位置である。標高は、親と子オブジェクト間の相対的な値です。
+Elevationは親となる存在からZ軸方向に向けての相対位置です。
+
+Elevationは親子間オブジェクトの相対距離です。
 
 Elevation is measured in the same units as the x and y axes, typically in density independent pixels (dps). Since material has a standard 1dp thickness, all elevation distances are measured from one top surface to another top surface.
 
 仰角は、典型的には、密度の独立した画素（dps）で、x軸およびy軸と同じ単位で測定される。マテリアルは、標準的な1dp厚さを有しているので、すべての昇降距離は、別の上面一つの上面から測定される。
+
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7U05IYmxGcW1WcVU/whatismaterial_3d_elevation1.png" width="500"/>
 
 #### Resting elevation
 
