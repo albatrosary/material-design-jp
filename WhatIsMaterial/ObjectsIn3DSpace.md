@@ -57,7 +57,15 @@ All material objects have a resting elevation, whether the object is a small com
 
 In the static state, the resting elevation for an object does not change. It is constant throughout an app. If an object changes elevation, it should return to its resting elevation as soon as possible.
 
-静的な状態では、オブジェクトのための休息上昇は変更されません。それはアプリを通して一定である。オブジェクトは標高を変更した場合、それはできるだけ早くその静止標高に返す必要があります。
+静的な状態では、オブジェクトの標準elevationは変更されません。
+
+その値はアプリケーション全体で一定です。
+
+もし、そのオブジェクトのelevationが変更された場合、それは出来るだけ早くその標準elevationの高さに戻す必要があります。
+
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7UFFxc1NmZmNxY0U/whatismaterial_3d_elevation3.png" width="500" />
+
+---
 
 The resting elevation for a given component type is consistent across apps throughout a platform. However, that same component type may have different resting elevations from platform to platform depending on the depth of the environment (e.g., TV has a greater depth than mobile or desktop).
 
