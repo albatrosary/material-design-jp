@@ -37,7 +37,9 @@ Elevationは親子間オブジェクトの相対距離です。
 
 Elevation is measured in the same units as the x and y axes, typically in density independent pixels (dps). Since material has a standard 1dp thickness, all elevation distances are measured from one top surface to another top surface.
 
-仰角は、典型的には、密度の独立した画素（dps）で、x軸およびy軸と同じ単位で測定される。マテリアルは、標準的な1dp厚さを有しているので、すべての昇降距離は、別の上面一つの上面から測定される。
+Elevationは一般的にx軸やy軸同じように、端末に依存しないピクセル (dps)単位で計測されます。
+
+materialは、必ず1dpの厚さを有しています、そして、すべてのElevation距離は、オブジェクトの上面から別オブジェクトの上面までの距離で計測されます。
 
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7U05IYmxGcW1WcVU/whatismaterial_3d_elevation1.png" width="500"/>
 
