@@ -39,15 +39,21 @@ Elevation is measured in the same units as the x and y axes, typically in densit
 
 Elevationは一般的にx軸やy軸同じように、端末に依存しないピクセル (dps)単位で計測されます。
 
-materialは、必ず1dpの厚さを有しています、そして、すべてのElevation距離は、オブジェクトの上面から別オブジェクトの上面までの距離で計測されます。
+materialは、必ず1dpの厚さを有しています、そして、すべてのElevation計測は、オブジェクトの上面から別オブジェクトの上面までの距離で行います。
 
 <img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7U05IYmxGcW1WcVU/whatismaterial_3d_elevation1.png" width="500"/>
 
 #### Resting elevation
+#### _静止高度_
 
 All material objects have a resting elevation, whether the object is a small component or a sheet that spans the entire display.
 
-すべてのマテリアルのオブジェクトは、オブジェクトが、小さな部品やディスプレイ全体にまたがるシートであるかどうか、休んで標高を持っています。
+すべてのmaterialオブジェクトは通常状態でのelevationを持っています。
+オブジェクトは、小さなコンポーネント、またはディスプレイ全体にまたがるシートをさします。
+
+<img src="http://material-design.storage.googleapis.com/publish/v_1/quantumexternal/0Bx4BSt6jniD7WWF2M2pDSDJ6M3c/whatismaterial_3d_elevation2.png" width="500" />
+
+---
 
 In the static state, the resting elevation for an object does not change. It is constant throughout an app. If an object changes elevation, it should return to its resting elevation as soon as possible.
 
