@@ -69,7 +69,15 @@ In the static state, the resting elevation for an object does not change. It is 
 
 The resting elevation for a given component type is consistent across apps throughout a platform. However, that same component type may have different resting elevations from platform to platform depending on the depth of the environment (e.g., TV has a greater depth than mobile or desktop).
 
-指定されたコンポーネントタイプの休憩標高は、プラットフォーム全体でのアプリ間で一貫している。しかし、その同じコンポーネントタイプは、環境（例えば、テレビ、モバイルやデスクトップよりも大きな深さを有する）の深さに応じて、プラットフォームとは異なる静止上昇を持っている場合があります。
+指定されたコンポーネント毎の静止座標はプラットフォーム全体を通して同じです。
+
+しかし、同じコンポーネントでも、奥行きの深さに応じて他のプラットフォームとは異なる静止座標を持っている可能性があります。
+
+（例：テレビは、モバイルやデスクトップよりも深さを表現できます。）
+
+<img src="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7VlNUdW5seTJVaTQ/whatismaterial_3d_elevation4.png" width="500" />
+
+---
 
 #### Responsive elevation and dynamic elevation offsets
 
