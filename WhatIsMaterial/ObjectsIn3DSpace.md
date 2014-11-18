@@ -80,10 +80,13 @@ The resting elevation for a given component type is consistent across apps throu
 ---
 
 #### Responsive elevation and dynamic elevation offsets
+### _反応高度と振る舞いを表現する高度_
 
 Certain component types have responsive elevation, which means they change their elevation in response to user input or system events. Different component states (e.g., normal, focused, pressed) may result in varying elevation changes, which are consistently implemented using dynamic elevation offsets.
 
-特定のコンポーネントタイプは、それらがユーザーの入力またはシステムイベントに応答してその高さを変更することを意味し、応答性の上昇を持っている。異なるコンポーネントの状態（例えば、正常な、集中し、押され）常に動的標高オフセットを使用して実装される高度の変化を、変化させることをもたらし得る。
+特定のコンポーネントはユーザーの入力またはシステムイベントに応じて、高度(elevation)を変更するための振る舞いを持ちます。
+
+様々なコンポーネントの状態(例：通常時、注目してほしい時、押下された時..等)に応じて反応を返し、振る舞いを表現する高度(elevation)の変更を行います。
 
 Dynamic elevation offsets are relative to the resting state of the component, and act as the goal or target elevation for the component to move towards for a given component state. They also ensure that elevation changes for a given action are consistent across a component type. For example, all components that lift on press have the same elevation change, relative to their current/resting elevation.
 
