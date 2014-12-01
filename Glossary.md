@@ -17,4 +17,7 @@ ITの世界では「メタファー」というものがよく使われます。
  + visual language  
 視覚によって意思疎通をすること
 
+ + [CSS Lint Roure](https://github.com/CSSLint/csslint/wiki/rules)
+   +  Styleを一読する前に、デザインのルールの基礎なのでよんでおくと良い
+   +  
 
