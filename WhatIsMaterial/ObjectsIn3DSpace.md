@@ -97,6 +97,7 @@ Once the input event is completed or cancelled, the component will return to its
 入力イベントが完了するかまたは取り消されると、コンポーネントはその静止標高に戻ります。
 
 #### Functional shadows
+#### _機能的な影_
 
 Shadows provide several important visual cues about the arrangement of objects in space. Shadows are the only visual affordance indicating the amount of separation between surfaces. The elevation of an object determines the visual appearance of its shadow.
 
