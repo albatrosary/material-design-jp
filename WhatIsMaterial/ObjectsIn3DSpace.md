@@ -133,6 +133,8 @@ In this case, the consistent shadow helps the user understand that the object is
 
 
 ### Object relationships
+### _オブジェクトの関係性_
+
 
 How you organize objects in an app determines how objects or collections of objects move in relation to one another. Objects can move independently of each other, or their movement can be constrained to, and dependent upon, their container. Containers and the objects they contain have a parent-child relationship. Every object has a single parent, and may or may not have one or more children.
 
