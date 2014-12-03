@@ -147,3 +147,14 @@ Children inherit transformation properties from their parent, such as position, 
 The hierarchy of parents and children determines how objects and groups of objects interact with one another. For example, child objects have minimal z-axis separation from their parent; other objects do not get inserted between parents and children.
 
 親と子の階層は、オブジェクトやグループが互いにどのように相互作用するかを決定します。例えば、子オブジェクトは、親からの最低限のz軸方向での幅を持ちます。親子以外のオブジェクトは親と子の間に入り込むことができません。
+
+
+
+<img src="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7RDVQb2FiUExTUjQ/whatismaterial_3d_relationship1.png" width="500"/>
+
+ * 子属性となる浮き上がったボタンは、親コンテンツがスクロールするのに合わせて同じようにスクロールします。
+
+<img src="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7bUxFNWxtN2VnY2M/whatismaterial_3d_relationship2.png" width="500"/>
+
+ * （親属性となる）フローティング状態のアクションボタンは所定の位置に残りつつ、(関連を持つ、または子属性の）カードは画面外にスクロールして行きます。
+ 
