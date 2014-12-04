@@ -101,6 +101,9 @@ Once the input event is completed or cancelled, the component will return to its
 
 入力イベントが完了するかまたは取り消されると、コンポーネントはその静止標高に戻ります。
 
+
+<img src="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7Q1N0RzZFcVhSWXM/whatismaterial_3d_elevation5.png" width="500" />
+
 #### Functional shadows
 #### _機能的な影_
 
