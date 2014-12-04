@@ -109,36 +109,39 @@ Once the input event is completed or cancelled, the component will return to its
 
 Shadows provide several important visual cues about the arrangement of objects in space. Shadows are the only visual affordance indicating the amount of separation between surfaces. The elevation of an object determines the visual appearance of its shadow.
 
-影は、空間内のオブジェクトの配置に関するいくつかの重要な視覚的な印象を与えます。影が表面間の距離を示す唯一の視覚的な影響です。オブジェクトの上昇はその影の外観を決定します。
+影は、空間内のオブジェクトの位置に関するいくつかの重要な見た目の印象を与えます。
+つまり影が、表面から浮き上がる表現を視覚的に伝えるアフォーダンスになります。
+オブジェクトのElevationが影の見た目を決定します。
 
 Without a shadow, there is nothing to indicate that the floating action button is a separate surface from the background surfaces.
 
-影なしで、浮いているアクションボタンは、背景表面から独立した表面であることを示すものは何もないです。
+影が無い場合、フローティングアクションボタンは、背景から独立した存在であることを示せません。
 
 Crisp shadows indicate both the floating action button and the app bar are separate surfaces very close to the background surface.
 
-クリスプシャドウが浮いているアクションボタンと、アプリバーの両方がバックグラウンド表面に非常に近い独立した表面であることを示します。
+鮮明な影は、フローティングアクションボタンとアプリケーションバーの両方が背景に凄い近い位置に浮いている、独立した存在である事を示せます。
 
 Softer, larger shadows indicate the floating action button is at a higher elevation than the app bar.
 
-柔らかく大きな影が浮いているアクションボタンは、アプリバーよりも高い位置にあることを示します。
+淡く大きな影は、フローティングアクションボタンがアプリケーションバーよりかなり高い位置にある事を示せます。
+
 
 In motion, shadows also provide cues about an object’s direction of movement. This is another useful tool to indicate whether the distance between surfaces is increasing or decreasing.
 
-「動き」では、影も動きのオブジェクトの方向についての手がかりを提供します。これは表面の間の距離が増加または減少しているかどうかを示すためにの別の有用なツールです。
+「動き」では、影の振る舞いがオブジェクトの動きについての視覚的手がかりを提供します。
+これは底面から離れてる、または近づいているかどうかを示すための重要な機能です。
 
 Without a shadow to indicate elevation, it’s unclear whether this circle is scaling at the same elevation, or simply increasing its elevation.
 
-影が上昇を指示することなく、この円が同じ高さにスケーリング、または単にその高さを増加しているかどうかは不明です。
+影がElevationの変化を見せなければ、この丸いオブジェクトが同じ高さに居るように見せます。もしくは、その高が変化しているかが不明な状態です。
 
 The shadow grows softer and larger as the object’s elevation increases and grows crisper and smaller as the elevation decreases.
 
-影は、オブジェクトの標高が高いほど柔らかく、大きくなると仰角が小さくなるにつれてはっきりと小さい成長する。
+影はオブジェクトのElevationが高いほど柔らかくて大きくなるります、対してElevationが低くなると、鮮明にかつ小さくなります。
 
 In this case, the consistent shadow helps the user understand that the object is changing shape as opposed to changing elevation.
 
-この場合には、一貫性の影は、ユーザが高さを変えることとは対照的に、物体の形状を変えていることを理解するのに役立ちます。
-
+このような機能は、ユーザーに対して、高さが変わっているのではなく、オブジェクトのサイズが変更されている等の変化を知らせるのに役立ちます。
 
 ### Object relationships
 ### _オブジェクトの関係性_
@@ -146,17 +149,27 @@ In this case, the consistent shadow helps the user understand that the object is
 
 How you organize objects in an app determines how objects or collections of objects move in relation to one another. Objects can move independently of each other, or their movement can be constrained to, and dependent upon, their container. Containers and the objects they contain have a parent-child relationship. Every object has a single parent, and may or may not have one or more children.
 
-オブジェクトまたはオブジェクトの集合が相互に関連してどのように動くかをどうアプリ内でのオブジェクトを整理します。オブジェクトは互いに独立して移動することができ、またはそれらの動きは、そのコンテナに拘束し、依存することができます。コンテナおよびオブジェクトは、親子関係をもっています。すべてのオブジェクトは、単一の親を持ち、または1つ以上の子供を持っている場合もあるし持っていない場合もあります。
+プリケーション全体を通してオブジェクトやその集合が、どのように関連してどのように動くかは、オブジェクトのグループ単位で決まります。
+
+オブジェクトは互いに独立して動く事ができますが、振る舞いはコンテナの中でルールづけられ、コンテナに依存します。
+
+コンテナオブジェクトは親子関係をもちます。
+
+そして、すべてのオブジェクトは一つの親を持つか、また一つ以上の子供を持っている場合があります
+
 
 Children inherit transformation properties from their parent, such as position, rotation, scale, and elevation. For example, in the case of a scrolling card collection where all cards move together, the cards are siblings and they are all children of the card collection container that handles the scrolling movement.
 
-子要素は、そのような位置、回転、スケール、標高など親から継承されたプロパティを保有します。たとえば、すべてのカードが一緒に移動した場合やスクロールカードコレクションの場合には、カードが兄弟であり、それらはスクロール移動を処理しカードは収集コンテナのすべての子に継承されます。
+子供となるオブジェクトは位置や回転、拡大や高さなどの振る舞いを親から継承します。
+
+たとえば、すべてのカードが一緒に移動する「カード一覧」の場合、「カード」同士が兄弟となり、そのカードは「カード一覧コンテナ」の子供になります。
 
 The hierarchy of parents and children determines how objects and groups of objects interact with one another. For example, child objects have minimal z-axis separation from their parent; other objects do not get inserted between parents and children.
 
-親と子の階層は、オブジェクトやグループが互いにどのように相互作用するかを決定します。例えば、子オブジェクトは、親からの最低限のz軸方向での幅を持ちます。親子以外のオブジェクトは親と子の間に入り込むことができません。
+親子の関係は、オブジェクトとオブジェクトのグループが互いにどのように振る舞うかをルールづけます。
 
-
+例えば、子供は親からの最低限のz軸の間隔を持ちます。
+また、この親子関係の間に、あらたなオブジェクトは入り込めません。
 
 <img src="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7RDVQb2FiUExTUjQ/whatismaterial_3d_relationship1.png" width="500"/>
 
