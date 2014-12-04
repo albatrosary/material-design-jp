@@ -88,9 +88,14 @@ Certain component types have responsive elevation, which means they change their
 
 様々なコンポーネントの状態(例：通常時、注目してほしい時、押下された時..等)に応じて反応を返し、振る舞いを表現する高度(elevation)の変更を行います。
 
-Dynamic elevation offsets are relative to the resting state of the component, and act as the goal or target elevation for the component to move towards for a given component state. They also ensure that elevation changes for a given action are consistent across a component type. For example, all components that lift on press have the same elevation change, relative to their current/resting elevation.
+Dynamic elevation offsets are relative to the resting state of the component, and act as the goal or target elevation for the component to move towards for a given component state. 
 
-ダイナミック標高オフセットは、コンポーネントが指定されたコンポーネントの状態のために向かって移動するための目標や目標標高などの静止コンポーネントの状態、および行為に対するものである。彼らはまた、特定のアクションのために、その標高変化はコンポーネントタイプ全体で一貫していることを確認してください。例えば、プレスで持ち上げて、すべてのコンポーネントは、現在/休息標高に対する相対同じ標高変化を持っている。
+They also ensure that elevation changes for a given action are consistent across a component type. For example, all components that lift on press have the same elevation change, relative to their current/resting elevation.
+
+これらは、特定のアクションに基づいたElevationの変化が、コンポーネント毎に統一されていることに留意しておいてください。
+
+例えば、押す/離すなどをしたとき、同一種のコンポーネントは静止/現在のElevationを基準として、同じElevationの変更が発生します。
+
 
 Once the input event is completed or cancelled, the component will return to its resting elevation.
 
