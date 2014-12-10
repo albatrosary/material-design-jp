@@ -21,3 +21,6 @@ ITの世界では「メタファー」というものがよく使われます。
    +  Styleを一読する前に、デザインのルールの基礎なのでよんでおくと良い
    +  
 
+ + fallback colors
+   + [CSS Lint](https://github.com/CSSLint/csslint/wiki/Require-fallback-colors)
+
